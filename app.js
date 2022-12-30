@@ -1,20 +1,4 @@
-// //https://www.youtube.com/watch?v=gkby8r-3soc
-
-// window.onload = function() {
-//     let button = document.getElementById("calculate");
-//     button.addEventListener("click", );
-// }
-
-// function calculateLove() {
-//     let yourName = document.getElementById("your-name").value;
-//     let crushName = document.getElementById("crush-name").value;
-
-//     if (yourName != "" && crushName != "") {
-//         let percentage = Math.floor(Math.random() * 101);
-//         document.getElementById("result-message").innerText = yourName + " and " + crushName + "change of love: ";
-//         document.getElementById("result-percentage").innerText = percentage.toString() + "%";
-//     }
-// }
+//https://www.youtube.com/watch?v=gkby8r-3soc
 
 window.onload = function() {
     let button = document.getElementById("calculate");
@@ -26,10 +10,24 @@ function calculateLove() {
     let crushName = document.getElementById("crush-name").value;
 
     if (yourName != "" && crushName != "") {
-        let percentage = Math.floor(Math.random() * 101); //0-.99999
-        // percentage = 3;
-        
-        document.getElementById("result-message").innerText = yourName + " and " + crushName + "'s chance of love:";
+        let percentage = Math.floor(Math.random() * 101);
+        document.getElementById("result-message").innerText = yourName + " and " + crushName + "'s change of love: ";
         document.getElementById("result-percentage").innerText = percentage.toString() + "%";
     }
 }
+
+// window.onload = function() {
+//     let button = document.getElementById("calculate");
+//     button.addEventListener("click", calculateLove);
+// }
+
+// function calculateLove() {
+//     let yourName = document.getElementById("your-name").value;
+//     let crushName = document.getElementById("crush-name").value;
+
+//     if (yourName != "" && crushName != "") {
+//         let percentage = Math.floor(Math.random() * 101);
+//         document.getElementById("result-message").innerText = yourName + " and " + crushName + "'s chance of love:";
+//         document.getElementById("result-percentage").innerText = percentage.toString() + "%";
+//     }
+// }
